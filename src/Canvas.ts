@@ -1,4 +1,4 @@
-import BaseCanvas from "./baseCanvas";
+import BaseCanvas from "./BaseCanvas";
 
 export default class Canvas extends BaseCanvas {
     
