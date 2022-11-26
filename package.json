@@ -15,7 +15,7 @@
   },
   
   "author": "jon-edward",
-  "license": "ISC",
+  "license": "Unlicense",
   
   "dependencies": {
     "@types/p5": "^1.4.3",
