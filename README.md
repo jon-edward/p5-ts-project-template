@@ -23,9 +23,8 @@ can produce different results; for example, changing `this.p5.fill(0)` to
 ## Purpose
 
 This template is designed as a minimal example for developers to explore 
-[p5.js](https://p5js.org/) using Typescript without needing to worry about 
-configuring a server while still allowing modularity in expanding a project over 
-multiple files.
+[p5.js](https://p5js.org/) using Typescript without needing to configure a server 
+while still allowing modularity in expanding a project over multiple files.
 
 
 ## Demo
