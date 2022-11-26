@@ -1,0 +1,31 @@
+{
+  "name": "p5-ts-project-template",
+  "version": "1.0.0",
+  "description": "Template Typescript p5 project.",
+  "main": "index.js",
+  
+  "scripts": {
+    "_compile": "tsc --project .",
+    "_bundle": "browserify out/intermediate/index.js --debug | exorcist --root ../ out/index.js.map > out/index.js",
+    "_bundle-release": "browserify -g uglifyify out/intermediate/index.js > index.js",
+    "_reconstruct-sourcemap": "sorcery --input out/index.js --output index.js",
+    
+    "build": "npm run _compile && npm run _bundle && npm run _reconstruct-sourcemap",
+    "build-release": "npm run _compile && npm run _bundle-release"
+  },
+  
+  "author": "jon-edward",
+  "license": "ISC",
+  
+  "dependencies": {
+    "@types/p5": "^1.4.3",
+    "p5": "^1.5.0"
+  },
+
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "exorcist": "^2.0.0",
+    "sorcery": "^0.10.0",
+    "uglifyify": "^5.0.2"
+  }
+}
