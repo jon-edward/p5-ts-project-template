@@ -26,3 +26,8 @@ This template is designed as a minimal example for developers to explore
 [p5.js](https://p5js.org/) using Typescript without needing to worry about 
 configuring a server while still allowing modularity in expanding a project over 
 multiple files.
+
+
+## Demo
+
+You can find an interactive demo on CodeSandbox [here](https://codesandbox.io/s/p5-ts-project-template-82uunw).
